@@ -7,7 +7,7 @@ export const person = {
   email: 'rimaz.asm@gmail.com',
   github: 'https://github.com/Rimaz17',
   linkedin: 'https://www.linkedin.com/in/rimaz-saththar-704605333',
-  cvPath: '/Rimaz_Saththar_CV.pdf',
+  cvPath: `${import.meta.env.BASE_URL}Rimaz_Saththar_CV.pdf`,
 }
 
 export const navLinks = [

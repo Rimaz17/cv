@@ -32,6 +32,14 @@ export default function Navbar() {
           </MagneticButton>
         </a>
       </div>
+
+      <nav className="flex gap-4 overflow-x-auto px-4 pb-3 text-sm text-slate-300 md:hidden sm:px-6 lg:px-8">
+        {navLinks.map((link) => (
+          <a key={link.href} href={link.href} className="story-link whitespace-nowrap">
+            {link.label}
+          </a>
+        ))}
+      </nav>
     </Motion.header>
   )
 }

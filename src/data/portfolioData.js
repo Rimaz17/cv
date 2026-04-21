@@ -58,14 +58,14 @@ export const projects = [
       'GitHub Actions',
     ],
     impact:
-      'Academic project at IIT: built an AI-powered academic collaboration platform with automated milestone generation and workload-aware team orchestration.',
+      'Built an AI-powered academic collaboration platform with automated milestone generation and workload-aware team orchestration.',
     highlights: [
       'Implemented an AI milestone engine that decomposes project descriptions into structured milestones, effort points, and suggested timelines.',
       'Built smart task assignment that matches tasks by skills and workload, including fairness quantification using a Gini Coefficient score.',
       'Set up CI/CD with backend deployment on Railway, frontend deployment on Vercel, and GitHub Actions-driven automation.',
     ],
     github: 'https://github.com/SDGP-Clovio/clovio-platform.git',
-    live: '',
+    live: 'https://www.clovio.app/',
   },
   {
     title: 'ShopSphere',

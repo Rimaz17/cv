@@ -80,6 +80,32 @@ export const projects = [
     live: 'http://ecommerce-project-react-env.eba-kzpqz8sk.eu-north-1.elasticbeanstalk.com/',
   },
   {
+    title: 'Smart Campus',
+    stack: ['Java', 'JAX-RS (Jersey 2.34)', 'Apache Tomcat 9', 'Maven', 'REST', 'ConcurrentHashMap'],
+    impact:
+      'Built a sensor and infrastructure management API with clean RESTful resource design, reliable error handling, and a thread-safe in-memory store.',
+    highlights: [
+      'Designed a multi-level API hierarchy (/rooms -> /sensors -> /sensors/{id}/readings) with correct HTTP status codes and JSON contracts.',
+      'Implemented custom JAX-RS exception mappers that return structured JSON errors for conflicts and invalid foreign keys.',
+      'Built a singleton DataStore with ConcurrentHashMap and ArrayList plus request/response logging for safe concurrent access.',
+    ],
+    github: 'https://github.com/Rimaz17/SmartCampus',
+    live: '',
+  },
+  {
+    title: 'RecruitFlow',
+    stack: ['Node.js', 'Express.js', 'PostgreSQL', 'React (Vite)', 'Axios', 'CSS'],
+    impact:
+      'Delivered a full-stack recruitment pipeline system with a Kanban UI and a production-ready REST API for scalable candidate management.',
+    highlights: [
+      'Built a Kanban pipeline UI for real-time stage transitions (Applying -> Screening -> Interview -> Test) backed by REST updates.',
+      'Implemented full CRUD with filtering by stage/score/referral, sorting, and pagination for high-volume candidate handling.',
+      'Polished the UX with loading states, empty states, and error handling across frontend and backend boundaries.',
+    ],
+    github: 'https://github.com/Rimaz17/recruitment-fullstack.git',
+    live: '',
+  },
+  {
     title: 'Task Manager REST API',
     stack: [
       'Python',

@@ -25,7 +25,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <a href={person.cvPath} download="Rimaz_Saththar_CV.pdf" aria-label="Download CV">
+        <a href={person.cvPath} download="Rimaz-Saththar-CV.pdf" aria-label="Download CV">
           <MagneticButton className="inline-flex items-center gap-2 border border-cyan-300/40 bg-cyan-300/10 text-cyan-100 hover:bg-cyan-300/20">
             <FiDownload className="text-base" />
             Download CV

@@ -78,7 +78,7 @@ export default function Hero() {
               View Projects <FiArrowRight />
             </MagneticButton>
           </a>
-          <a href={person.cvPath} download="Rimaz_Saththar_CV.pdf">
+          <a href={person.cvPath} download="Rimaz-Saththar-CV.pdf">
             <MagneticButton className="inline-flex items-center gap-2 border border-white/20 bg-white/5 text-white hover:bg-white/15">
               Download CV <FiDownload />
             </MagneticButton>

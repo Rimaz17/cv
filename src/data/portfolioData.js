@@ -187,15 +187,19 @@ export const skills = [
 
 export const achievements = [
   {
-    title: 'Diamond-Tier QA Excellence',
-    detail: 'Recognized in top-tier performance brackets for competitive quality assurance testing outcomes.',
+    title: 'Startup Engineering Leadership',
+    detail: 'Steered product engineering decisions and delivery at QuickBrix under high-velocity constraints.',
+  },
+  {
+    title: 'CodeSprint 11 Finalist',
+    detail: 'Selected among top projects in a competitive hackathon for innovation with Clovio.',
   },
   {
     title: '500+ Bugs Validated',
     detail: 'Uncovered and documented critical defects with reproducible evidence and actionable severity analysis.',
   },
   {
-    title: 'Startup Engineering Leadership',
-    detail: 'Steered product engineering decisions and delivery at QuickBrix under high-velocity constraints.',
+    title: 'Diamond-Tier QA Excellence',
+    detail: 'Recognized in top-tier performance brackets for competitive quality assurance testing outcomes.',
   },
 ]

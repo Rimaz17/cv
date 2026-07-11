@@ -26,7 +26,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="mb-5 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.24em] text-cyan-200/90"
         >
-          Full-Stack Developer / Backend Depth
+          Full-Stack Developer
         </Motion.p>
 
         <Motion.h1

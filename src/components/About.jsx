@@ -8,7 +8,7 @@ export default function About() {
         <SectionTitle
           eyebrow="About"
           title="Engineering with range, depth, and product urgency"
-          subtitle="I focus on backend reliability first, while still shipping frontend experiences that feel intentional and fast."
+          subtitle="I focus on building reliable systems while delivering experiences that feel fast, intentional, and polished"
         />
 
         <Motion.div
@@ -19,7 +19,7 @@ export default function About() {
           className="grid gap-4 md:grid-cols-3"
         >
           <article className="glass-card md:col-span-2">
-            <h3 className="mb-4 text-2xl font-semibold text-white">Backend-first builder, full-stack execution</h3>
+            <h3 className="mb-4 text-2xl font-semibold text-white">full-stack execution</h3>
             <p className="text-slate-300">
               I am a Computer Science undergraduate who designs systems for scale, observability, and maintainability.
               My strongest work lives in Node.js and Python ecosystems where I architect APIs, data flows, and caching
@@ -32,7 +32,7 @@ export default function About() {
               <li>Startup engineering leadership at QuickBrix</li>
               <li>500+ validated bug discoveries in QA, including Facebook, Instagram, and Canva</li>
               <li>Diamond-tier ranking performance</li>
-              <li>Strong backend stack with cloud deployment focus</li>
+              <li>Robust full-stack development with cloud-native deployment</li>
             </ul>
           </article>
         </Motion.div>

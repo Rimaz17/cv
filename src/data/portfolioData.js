@@ -1,12 +1,12 @@
 export const person = {
   name: 'Rimaz Saththar',
-  role: 'Full-Stack Developer (Backend-Focused)',
+  role: 'Full-Stack Developer',
   headline: 'I build scalable systems and high-impact software.',
   subHeadline:
-    'Computer Science undergraduate blending backend engineering depth, startup execution, and elite QA performance.',
+    'Computer Science undergraduate blending full-stack engineering depth, startup execution, and elite QA performance.',
   email: 'rimaz.asm@gmail.com',
   github: 'https://github.com/Rimaz17',
-  linkedin: 'https://www.linkedin.com/in/rimaz-saththar-704605333',
+  linkedin: 'https://www.linkedin.com/in/rimaz-saththar',
   cvPath: `${import.meta.env.BASE_URL}Rimaz-Saththar-CV.pdf`,
 }
 

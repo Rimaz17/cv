@@ -144,11 +144,11 @@ export const experience = [
     role: 'Co-Founder & Tech Lead',
     company: 'QuickBrix',
     summary:
-      'Leading full-stack development of a multi-portal digital marketplace for construction supplies while driving startup execution and investor readiness.',
+      'Architecting a 3-portal digital marketplace for construction supplies (Customer, Merchant, Driver + Admin console) using Flutter, Spring Boot, and PostgreSQL; leading a team of 4 through Agile/Scrum sprints toward MVP.',
     points: [
-      'Owning architecture and delivery using Flutter, Django, and PostgreSQL for MVP milestones.',
-      'Managing a cross-functional team of 6 across frontend, backend, QA, and design.',
-      'Integrating Google Maps, Firebase, and payment gateways while preparing investor pitch and financial readiness.',
+      'Architecting a 3-portal marketplace with a real-time store-matching engine (5km radius) and weight-based delivery/pickup routing (250kg threshold); leading a team of 4 through Agile/Scrum sprints toward MVP.',
+      'Building Firebase Auth/FCM and Google Maps API integration for live tracking, delivery-time estimation, and PIN-based order verification.',
+      'Migrated hosting from AWS to Railway after re-scoping MVP infra needs; prepared the investor pitch deck and financials for pre-seed fundraising.',
     ],
   },
   {
@@ -168,20 +168,32 @@ export const experience = [
 
 export const skills = [
   {
+    category: 'Languages',
+    items: ['Python', 'JavaScript', 'Java', 'SQL'],
+  },
+  {
     category: 'Backend',
-    items: ['Node.js', 'Python', 'Django', 'FastAPI', 'REST APIs', 'Microservices'],
+    items: ['Spring Boot', 'Node.js', 'Express', 'Django', 'FastAPI', 'Django REST Framework'],
   },
   {
     category: 'Frontend',
-    items: ['React', 'Tailwind CSS', 'TypeScript', 'UI Architecture'],
+    items: ['React', 'HTML', 'CSS'],
   },
   {
-    category: 'Data & Storage',
-    items: ['PostgreSQL', 'Redis', 'MongoDB', 'Query Optimization'],
+    category: 'Design & Tools',
+    items: ['Figma'],
   },
   {
     category: 'DevOps & Cloud',
-    items: ['Docker', 'AWS', 'CI/CD', 'Observability'],
+    items: ['Docker', 'Docker Compose', 'Git', 'GitHub Actions', 'AWS (Elastic Beanstalk)', 'Railway', 'Firebase'],
+  },
+  {
+    category: 'Databases',
+    items: ['PostgreSQL', 'Redis', 'SQLite'],
+  },
+  {
+    category: 'Testing & QA',
+    items: ['Postman', 'API Testing', 'Manual Testing', 'Charles Proxy', 'Bug Reporting'],
   },
 ]
 

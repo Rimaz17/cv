@@ -21,18 +21,18 @@ export default function About() {
           <article className="glass-card md:col-span-2">
             <h3 className="mb-4 text-2xl font-semibold text-white">full-stack execution</h3>
             <p className="text-slate-300">
-              I am a Computer Science undergraduate who designs systems for scale, observability, and maintainability.
-              My strongest work lives in Node.js and Python ecosystems where I architect APIs, data flows, and caching
-              strategies that survive real usage.
+              I am a Computer Science undergraduate who co-founded a venture-backed startup while building production
+              systems across Spring Boot, Node.js, Python and more. I architect multi-portal platforms, real-time APIs, and
+              cloud-native infrastructure — then ship them end-to-end with the discipline of a QA engineer.
             </p>
           </article>
           <article className="glass-card">
             <h3 className="mb-3 text-lg font-semibold text-white">Quick Snapshot</h3>
             <ul className="space-y-3 text-sm text-slate-300">
-              <li>Startup engineering leadership at QuickBrix</li>
-              <li>500+ validated bug discoveries in QA, including Facebook, Instagram, and Canva</li>
-              <li>Diamond-tier ranking performance</li>
-              <li>Robust full-stack development with cloud-native deployment</li>
+              <li>Co-Founder & Tech Lead at QuickBrix — 3-portal marketplace, team of 4, pre-seed fundraising</li>
+              <li>500+ verified bugs across Facebook, Instagram, Canva and more</li>
+              <li>Diamond-tier QA tester, top 3 in ~90% of active projects</li>
+              <li>Multi-stack engineer: Node.js · Spring Boot · Python · Flutter · React</li>
             </ul>
           </article>
         </Motion.div>

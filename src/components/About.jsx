@@ -31,8 +31,8 @@ export default function About() {
             <ul className="space-y-3 text-sm text-slate-300">
               <li>Co-Founder & Tech Lead at QuickBrix — 3-portal marketplace, team of 4, pre-seed fundraising</li>
               <li>500+ verified bugs across Facebook, Instagram, Canva and more</li>
-              <li>Diamond-tier QA tester, top 3 in ~90% of active projects</li>
-              <li>Multi-stack engineer: Node.js · Spring Boot · Python · Flutter · React</li>
+              <li>Diamond-tier QA tester, top 3 in ~90% of active projects including Facebook, Instagram, and Canva</li>
+              <li>Multi-stack engineer: Spring Boot · Node.js · Python · Flutter · React</li>
             </ul>
           </article>
         </Motion.div>
